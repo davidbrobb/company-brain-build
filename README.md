@@ -2,25 +2,29 @@
 
 A guided starter company brain build that teaches Claude how your business works, builds the brain for you based on your own business — then shows you how to keep using it.
 
-This is not the final form of a company brain. It's the first working version: a local markdown system for decisions, processes, customers, team context, and the operating knowledge your AI needs before it can be genuinely useful.
+Once it's built, you stop repeating yourself to new Claude chats because you built permanent context it reads automatically.
 
-Open the kit in Claude Code and Claude walks you through the build. No prior setup, no terminal commands, no config files to write.
+This isn't a final form company brain, but it's enough to give your AI operating knowledge of your business and provide genuinely useful responses.
+
+1. Paste this URL into Claude.
+2. Tell it you want to build your Company Brain.
+3. Claude walks you through the build.
 
 ---
 
 ## What you need
 
 - [Claude Code](https://claude.ai/code) installed on your desktop
-- [Obsidian](https://obsidian.md) — optional but recommended for exploring your brain visually (free)
-- [Wispr Flow](https://wisprflow.ai) — optional if you prefer dictating your answers or future captures (free trial)
+- [Obsidian](https://obsidian.md) (optional) but recommended for exploring your brain visually (free)
+- [Wispr Flow](https://wisprflow.ai) (optional) but talking to Claude is easier than typing (free trial available)
 
-Nothing else. No APIs or extra setup. Claude Code is the AI workspace; Obsidian and Wispr Flow are optional helpers.
+You don't need to configure any APIs or extra setup. Claude Code is the AI workspace; Obsidian helps you read the brain and Wispr Flow helps you build it faster.
 
 ---
 
 ## How to start
 
-1. Click the green **Code** button above → **Download ZIP** → extract/unzip it
+1. Either paste the link up top into Claude or click the green **Code** button above → **Download ZIP** → extract/unzip it
 
    > The extracted folder will be named `company-brain-build-main` — that's normal, it's GitHub's default.
 
@@ -28,18 +32,17 @@ Nothing else. No APIs or extra setup. Claude Code is the AI workspace; Obsidian 
 
    > Claude reads the project config and begins the interview. If nothing starts straight away, tell Claude: **"Please read CLAUDE.md and run the setup."**
 
-   > The actual brain template lives inside the extracted folder at `company-brain/`. Claude will customise that folder, then help you move only that folder to its final home.
+   > The actual brain template lives inside the extracted folder at `company-brain/`. Claude will customise this folder, then help you move only that folder to its final home.
 
-**Don't `git clone` this repo.** Use Download ZIP. You're not forking it — you're using it as a one-time scaffold for your own brain, which then lives entirely on your machine. If you clone it, your notes end up tracked against this repo. That's not what you want.
-
+**Don't `git clone` this repo.** Use Download ZIP. This is intended as a one-time scaffold for your own brain, which then lives entirely on your computer. 
 ---
 
-## What you'll have after ~5 minutes
+## What you'll have after ~15 minutes
 
-- **A starter company brain** built around your actual business, not a blank template
+- **A starter company brain** built around your actual business
 - **A root brain file** that links decisions, customers, processes, team context, and strategy together
-- **The `/brain-entry` skill** at `skills/brain-entry/SKILL.md` if you choose to install it, so you can capture decisions, processes, team notes, and more in any session with correct formatting
-- **A global Claude reference** (optional) so Claude always knows about your brain when you open Claude Code anywhere
+- **The `/brain-entry` skill** at `skills/brain-entry/SKILL.md` if you choose to install it (recommended), so you can capture decisions, processes, team notes, and more in any session with correct formatting
+- **A global Claude reference** (optional) so Claude Code always knows about your brain when you start a new session
 
 ---
 
@@ -53,10 +56,4 @@ Your brain files are plain markdown — you own them completely and can open the
 
 ---
 
-## For maintainers
-
-`.gitignore` is intentionally absent — rules live in `.git/info/exclude` so they don't ship to users. After a fresh clone, re-add your local exclude rules there.
-
----
-
-Built by [David Robb](https://aibc.consulting) · [AI for Business hub](https://www.notion.so/davidrobb/AI-for-Business-by-davidbrobb-363682b9900d8070b0f1c499d35ed272)
+Built by [David Robb](https://aibc.consulting) · [AI for Business Hub](https://www.notion.so/davidrobb/AI-for-Business-by-davidbrobb-363682b9900d8070b0f1c499d35ed272)
